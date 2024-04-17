@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mh-1  h1
+{
+  font-size: 50px;
+}
+
+.btn-a {
+  background: #1a8273;
+  border-radius: 50px;
+  padding: 9px 15px;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 500;
+  text-decoration: auto;
+  font-size: 14px !important;
+  position: relative;
+}
+
+section.main-banner-vid h1 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 1.5;
+}
+section.main-banner-vid h2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+}
+section.main-banner-vid h2 span{
+  background: #167e6f;
+}
+
+.main-banner-vid p {color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;}
+
+    .main-banner-vid p span {
+      background: #299081;
+      padding: 0px 10px;
+      height:100vh;
+  }
+
+  .main-banner-vid {
+    background: #0000009e;
+    height: 100vh;
+}
+
+  video#vide {
+    position: absolute;
+    z-index: -1;
+    height:100vh;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+section.brnd-slider.bg-black {
+  background: #298f80;
+}
+
+.m1-h h3 {
+  color: #000;
+  font-size: 70px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.m1-h h3 span {
+  color: #000;
+  font-size: 70px;
+  line-height: 111px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+}
+.portfolio-h h3 ,.portfolio-h h3 span{
+  color: #fff;
+}
+
+.pack-box h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.pack-wrap {
+  border-radius: 20px;
+  border-radius: 27px;
+  background-image: -moz-linear-gradient(90deg, rgb(19, 124, 109) 0%, #157d6e 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(19, 124, 109) 0%, rgb(48, 150, 135) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(19, 124, 109) 0%, rgb(48, 150, 135) 100%);
+  padding: 15px;
+}
+.pack-wrap p {
+  line-height: 1.5;
+  font-weight: 400;
+  color: #fff;
+  padding: 15px;
+  font-size: 14px;
+}
+
+section.process {
+  background: #d6d6d6;
+}
+
+  .conter-box h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.conter-box span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+th.pro {
+  font-size: 45px;
+  border: none;
+  background: #fff0 !important;
+  color: #000;
+}
+
+.table>:not(caption)>*>* {
+  background: #167e6f;
+}
+
+.table-packages td, .table-packages th, .business-table td, .business-table th {
+  margin: 0;
+  padding: 15px;
+  line-height: 1.5;
+  vertical-align: top;
+  border: 1px solid #ffffff;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+td {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+tbody {
+  color: black;
+  line-height: 2;
+  padding: 10px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+section.story-sec {
+  background: #2c9384;
+}
+
+section.story-sec h3 {
+    color: #fff;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+footer {
+  background: #1a1d5a;
+}
