@@ -1,7 +1,3 @@
-
-
-
-
 export default function Hero({ Component = null }){
     return (
         <section className="main-banner-vid flex items-center justify-center gap-4 py-14 h-full">

@@ -3,11 +3,11 @@
 
 export default function HeroForm(){
     return (
-        <div className="container mx-40 pt-20">
-        <div className="grid md:grid-cols-2 text-left items-center justify-between gap-8 py-36">
-          <div>
-            <h2><span> #1 SELF </span> PUBLISHING COMPANY</h2>
-            <h1 className="font-majallab">Publish Your Dreams!</h1>
+        <div className="container mx-4 pt-20 md:mx-40">
+        <div className="grid grid-cols-1 sm:gap-8 sm:py-0 md:grid-cols-2 text-left items-center justify-between md:gap-8 md:py-36">
+          <div className="mb-4">
+            <h2 className="text-sm md:base"><span> #1 SELF </span> PUBLISHING COMPANY</h2>
+            <h1 className="font-majallab text-3xl md:text-7xl">Publish Your Dreams!</h1>
             <p>Our comprehensive KDP <span> (Kindle Direct Publishing) and Self-Publishing Services</span> transform your manuscript from editing to distribution, ensuring it is accessible to readers globally.</p>
           </div>
         <div>
